@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string[] drinks = {"Вино","Кока-Кола","Пиво","Лимонад","Сок"};
+            string[] drinks = {"Вино","Кока-Кола","Пиво","Лимонад","Сок", "Сок" };
             string[] alcohol = { "Вино", "Пиво" };
 
             var drinksForKids=drinks.Except(alcohol);
