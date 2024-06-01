@@ -6,9 +6,11 @@
         {
             int[] numbers = { 1, 2, 3, 4, 5 };
 
-            int result = numbers.Aggregate((x,y)=>x-y);
+            int minus = numbers.Aggregate((x,y)=>x-y);
+            int sum=numbers.Aggregate((x,y)=>y+x);
 
-            Console.WriteLine(result);
+            Console.WriteLine(minus);
+            Console.WriteLine(sum);
         }
     }
 }
