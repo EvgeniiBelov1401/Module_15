@@ -57,13 +57,13 @@ namespace M15U04Ex01
                 (dep, emps) => new
                 {
                     Name=dep.Name,
-                    DepName=emps.Select(emp => emp.Name)
+                    Employees = emps.Select(emp => emp.Name)
                 });
 
             foreach(var item in result3)
             {
                 Console.WriteLine(item.Name+": ");
-                foreach(var emp in item.DepName)
+                foreach(var emp in item.Employees)
                 {
                     Console.WriteLine(emp);
                 }
