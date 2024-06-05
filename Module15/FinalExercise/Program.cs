@@ -17,14 +17,10 @@ namespace FinalExercise
                new Classroom { Students = {"Bulat", "Alex", "Galina"}, }
            };
            
-                
-
                 var allStudents = GetAllStudents(classes);
 
                 Console.WriteLine(string.Join(" ", allStudents));
-
-                
-            
+    
         }
     }
 }
