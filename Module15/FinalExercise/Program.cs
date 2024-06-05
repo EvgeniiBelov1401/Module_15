@@ -19,9 +19,8 @@ namespace FinalExercise
             while (true)
             {
                 for (int i = 0; i < classes.Length; i++)
-                {
-                    var oneClass=classes.ToList()[i].Students;                    
-                    Console.WriteLine($"Класс {i + 1}: "+string.Join(" ",oneClass));
+                {                   
+                    Console.WriteLine($"Класс {i + 1}: "+string.Join(" ", classes.ToList()[i].Students));
                 }
 
             
