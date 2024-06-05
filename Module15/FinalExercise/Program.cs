@@ -6,7 +6,7 @@ namespace FinalExercise
     {
         static string[] GetAllStudents(Classroom[] classes)
         {
-            return classes.SelectMany(x => x.Students).ToArray();
+            return classes.SelectMany(child => child.Students).ToArray();
         }
         static void Main(string[] args)
         {
